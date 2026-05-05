@@ -9,9 +9,9 @@ frappe.pages['engagement-tracker-r'].on_page_load = function (wrapper) {
 		single_column: true
 	});
 
-	// =================================================================
+	// ============================================================
 	// 1. ADVANCED PROFESSIONAL ANIMATIONS & STYLES
-	// =================================================================
+	// ============================================================
 	const animationStyles = `
             <style>
                 /* Premium fade-in with blur */
