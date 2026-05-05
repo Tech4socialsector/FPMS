@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-14 16:13:01.455797",
+ "doctype": "DocType",
+ "custom": 1,
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "programme",
+  "course",
+  "course_id",
+  "term_type",
+  "course_credit",
+  "column_break_nkzc",
+  "nature_of_teaching",
+  "estimated_no_of_students",
+  "remarks",
+  "supervisor_remarks"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "columns": 7,
+   "fieldname": "programme",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Programme",
+   "options": "\nUndergraduate\nPostgraduate\nDiplomas and Certificates"
+  },
+  {
+   "bold": 1,
+   "columns": 7,
+   "fieldname": "course",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Course category",
+   "options": "\nCore\nSpecialisation Core\nElective\nCourse of Independent Study\nCRX\nCommon Curriculum\nMajor\nMinor\nOccupational minor\nFlexible courses\nElective"
+  },
+  {
+   "bold": 1,
+   "columns": 3,
+   "fieldname": "course_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Course Name",
+   "options": "Courses"
+  },
+  {
+   "bold": 1,
+   "columns": 2,
+   "description": "(enter teaching months, e.g. Jul \u2013 Oct 2025)",
+   "fieldname": "term_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Term Type"
+  },
+  {
+   "bold": 1,
+   "columns": 3,
+   "fieldname": "course_credit",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Course Credit"
+  },
+  {
+   "fieldname": "column_break_nkzc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "bold": 1,
+   "columns": 6,
+   "fieldname": "nature_of_teaching",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Nature of teaching",
+   "options": "\nI taught the whole course\nI taught roughly half the course\nI taught a few classes\nI supported in other ways"
+  },
+  {
+   "bold": 1,
+   "columns": 4,
+   "fieldname": "estimated_no_of_students",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "No. of students (average)"
+  },
+  {
+   "bold": 1,
+   "columns": 4,
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Student feedback rating"
+  },
+  {
+   "bold": 1,
+   "columns": 2,
+   "fieldname": "supervisor_remarks",
+   "fieldtype": "Small Text",
+   "hidden": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Brief Reflection"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-19 09:51:36.007052",
+ "modified_by": "Administrator",
+ "module": "FPMS Child",
+ "name": "Course Details Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-14 16:14:49.212848",
+ "doctype": "DocType",
+ "custom": 1,
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "programme_id",
+  "type_of_mentoring",
+  "semester",
+  "credits_any",
+  "no_of_students",
+  "remarks",
+  "remarks__if_any"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "programme_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Programme<br>",
+   "options": "Programme List"
+  },
+  {
+   "columns": 10,
+   "fieldname": "type_of_mentoring",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Type of Mentoring",
+   "options": "\nCredited projects (Field project, Honours Project, etc.)\nCredited Field Practice mentoring (Immersion, Practicum, Internship)\nGeneral mentoring"
+  },
+  {
+   "columns": 4,
+   "description": "(enter teaching months, e.g. Jul \u2013 Oct 2025)",
+   "fieldname": "semester",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Semester/ Term Duration"
+  },
+  {
+   "columns": 3,
+   "fieldname": "credits_any",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Credits, if any"
+  },
+  {
+   "columns": 4,
+   "fieldname": "no_of_students",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "No. of students (average)"
+  },
+  {
+   "columns": 2,
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "hidden": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Brief Reflection"
+  },
+  {
+   "columns": 3,
+   "fieldname": "remarks__if_any",
+   "fieldtype": "Small Text",
+   "label": " Remarks  if any"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-19 09:53:12.051504",
+ "modified_by": "Administrator",
+ "module": "FPMS Child",
+ "name": "Mentoring Details Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

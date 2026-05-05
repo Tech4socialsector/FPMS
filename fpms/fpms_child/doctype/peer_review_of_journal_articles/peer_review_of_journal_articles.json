@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-14 16:35:56.435164",
+ "doctype": "DocType",
+ "custom": 1,
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "journal_name",
+  "number_of_articles"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "journal_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Journal Name"
+  },
+  {
+   "columns": 4,
+   "fieldname": "number_of_articles",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Number of articles"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-10-30 18:01:58.625437",
+ "modified_by": "Administrator",
+ "module": "FPMS Child",
+ "name": "Peer review of journal articles",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-14 16:36:45.129383",
+ "default_view": "List",
+ "doctype": "DocType",
+ "custom": 1,
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "conference_name",
+  "dates_of_conference",
+  "organizing_institution",
+  "co_organizers",
+  "location",
+  "audience_description",
+  "status",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "columns": 5,
+   "fieldname": "conference_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Conference / Workshop name",
+   "reqd": 1
+  },
+  {
+   "columns": 5,
+   "fieldname": "dates_of_conference",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Dates of conference/ workshop",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "organizing_institution",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Organizing institution"
+  },
+  {
+   "columns": 3,
+   "fieldname": "co_organizers",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Co-organizers"
+  },
+  {
+   "columns": 3,
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Location",
+   "reqd": 1
+  },
+  {
+   "columns": 7,
+   "fieldname": "audience_description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Audience description and number of participants"
+  },
+  {
+   "columns": 5,
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "\nCompleted\nPlanning in progress",
+   "reqd": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Remarks"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-11 16:48:40.284061",
+ "modified_by": "Administrator",
+ "module": "FPMS Child",
+ "name": "Conference Workshop organising",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

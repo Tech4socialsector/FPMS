@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2025-10-14 17:18:29.395193",
+ "doctype": "DocType",
+  "custom": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "scl_short_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "scl_short_name",
+   "fieldtype": "Data",
+   "label": "School Short Name"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-10-27 13:31:45.264038",
+ "modified_by": "Administrator",
+ "module": "FPMSS Master",
+ "name": "School Details",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

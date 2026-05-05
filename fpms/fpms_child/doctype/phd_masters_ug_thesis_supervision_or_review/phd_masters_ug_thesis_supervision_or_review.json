@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-14 16:47:28.533188",
+ "doctype": "DocType",
+ "custom": 1,
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "institution",
+  "department_school",
+  "degree",
+  "student_name",
+  "description"
+ ],
+ "fields": [
+  {
+   "columns": 3,
+   "fieldname": "institution",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Institution",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "department_school",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Department/ School",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "degree",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Degree (UG, Masters, PhD)",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Student name"
+  },
+  {
+   "columns": 3,
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Description",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-10-30 18:11:51.533750",
+ "modified_by": "Administrator",
+ "module": "FPMS Child",
+ "name": "PhD Masters UG thesis supervision or review",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

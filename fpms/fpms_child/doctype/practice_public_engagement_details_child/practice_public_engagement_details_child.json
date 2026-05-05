@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-14 16:42:56.178140",
+ "doctype": "DocType",
+ "custom": 1,
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "activity_type",
+  "activity_details",
+  "start_date",
+  "end_date",
+  "amount_inr",
+  "current_status",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "columns": 3,
+   "fieldname": "activity_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Activity Type",
+   "options": "Activity Type"
+  },
+  {
+   "columns": 3,
+   "fieldname": "activity_details",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Activity Details"
+  },
+  {
+   "columns": 2,
+   "fieldname": "start_date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Start Date"
+  },
+  {
+   "columns": 2,
+   "fieldname": "end_date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "End Date"
+  },
+  {
+   "columns": 3,
+   "fieldname": "amount_inr",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Amount (INR)",
+   "non_negative": 1
+  },
+  {
+   "columns": 6,
+   "fieldname": "current_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Current Status",
+   "options": "\nCompleted\nIn Progress"
+  },
+  {
+   "columns": 3,
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Remarks"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-19 10:16:17.620516",
+ "modified_by": "Administrator",
+ "module": "FPMS Child",
+ "name": "Practice Public Engagement Details Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

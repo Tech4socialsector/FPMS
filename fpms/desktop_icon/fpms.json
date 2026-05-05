@@ -1,0 +1,20 @@
+{
+ "app": "fpms",
+ "bg_color": "blue",
+ "creation": "2026-04-13 14:56:22.084866",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "Link",
+ "idx": 0,
+ "label": "FPMS",
+ "link_to": "FPMS",
+ "link_type": "Workspace Sidebar",
+ "modified": "2026-04-13 14:56:41.324549",
+ "modified_by": "Administrator",
+ "name": "FPMS",
+ "owner": "Administrator",
+ "restrict_removal": 0,
+ "roles": [],
+ "standard": 1
+}

@@ -1,0 +1,143 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "autoincrement",
+ "creation": "2025-11-10 14:56:56.345243",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "school",
+  "scl_short_name",
+  "academic_year",
+  "announcement_id",
+  "obj_start_date",
+  "obj_end_date",
+  "review_start_date",
+  "review_end_date",
+  "column_break_tlmh",
+  "faculty_announcement",
+  "faculty_name",
+  "supervisor_announcement",
+  "supervisor_name",
+  "added_time",
+  "schoolwise_admin"
+ ],
+ "fields": [
+  {
+   "fieldname": "school",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "School",
+   "options": "School Details"
+  },
+  {
+   "fetch_from": "school.scl_short_name",
+   "fetch_if_empty": 1,
+   "fieldname": "scl_short_name",
+   "fieldtype": "Data",
+   "label": "School Short Name"
+  },
+  {
+   "fieldname": "academic_year",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Academic Year",
+   "options": "Academic Year"
+  },
+  {
+   "fieldname": "announcement_id",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Announcement ID"
+  },
+  {
+   "fieldname": "obj_start_date",
+   "fieldtype": "Date",
+   "label": "Objective Start Date"
+  },
+  {
+   "fieldname": "obj_end_date",
+   "fieldtype": "Date",
+   "label": "Objective End Date"
+  },
+  {
+   "fieldname": "review_start_date",
+   "fieldtype": "Date",
+   "label": "Supervisor Objective Review Start Date"
+  },
+  {
+   "fieldname": "review_end_date",
+   "fieldtype": "Date",
+   "label": "Supervisor Objective Review End Date"
+  },
+  {
+   "fieldname": "column_break_tlmh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "faculty_announcement",
+   "fieldtype": "Select",
+   "label": "Announcement for Faculty",
+   "options": "\nAll Faculty\nSelected Faculty"
+  },
+  {
+   "fieldname": "faculty_name",
+   "fieldtype": "Table MultiSelect",
+   "label": "Faculty Name ",
+   "options": "Announcement Faculty Table"
+  },
+  {
+   "fieldname": "supervisor_announcement",
+   "fieldtype": "Select",
+   "label": "Announcement for Supervisor",
+   "options": "\nAll Supervisor\nSelected Supervisor"
+  },
+  {
+   "fieldname": "supervisor_name",
+   "fieldtype": "Table MultiSelect",
+   "label": "Supervisor Name",
+   "options": "Announcement Supervisor Table"
+  },
+  {
+   "fieldname": "added_time",
+   "fieldtype": "Datetime",
+   "label": "Added Time"
+  },
+  {
+   "fieldname": "schoolwise_admin",
+   "fieldtype": "Data",
+   "label": "School Wise Admin"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-10 14:59:56.926298",
+ "modified_by": "Administrator",
+ "module": "FPMSS Master",
+ "name": "Test",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "announcement_id"
+}

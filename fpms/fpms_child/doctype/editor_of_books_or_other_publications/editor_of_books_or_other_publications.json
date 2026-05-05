@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-14 16:29:01.467726",
+ "default_view": "List",
+ "doctype": "DocType",
+ "custom": 1,
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title_of_larger_work",
+  "status",
+  "author_names",
+  "publisher",
+  "date_of_publication",
+  "full_citation",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "columns": 4,
+   "fieldname": "title_of_larger_work",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Title of Larger Work",
+   "reqd": 1
+  },
+  {
+   "columns": 7,
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "\nPublished\nFinal version completed\nUnder Review",
+   "reqd": 1
+  },
+  {
+   "columns": 5,
+   "fieldname": "author_names",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Author/Co-Editor Names",
+   "reqd": 1
+  },
+  {
+   "columns": 3,
+   "fieldname": "publisher",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Publisher"
+  },
+  {
+   "columns": 3,
+   "fieldname": "date_of_publication",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Date of Publication\t"
+  },
+  {
+   "columns": 2,
+   "fieldname": "full_citation",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Full Citation\t"
+  },
+  {
+   "columns": 2,
+   "description": "Remarks must be limited to 100 characters only",
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Remarks",
+   "length": 100
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-11 16:39:30.353991",
+ "modified_by": "Administrator",
+ "module": "FPMS Child",
+ "name": "Editor of books or other publications",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

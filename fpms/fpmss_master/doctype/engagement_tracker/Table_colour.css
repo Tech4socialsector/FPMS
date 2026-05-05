@@ -1,0 +1,25 @@
+/* ──────────────────────────────────────────────────────────────
+   ENGAGEMENT TRACKER – CHILD TABLE SCROLLBARS
+   ────────────────────────────────────────────────────────────── */
+.engagement-tracker-child-table .frappe-control[data-fieldtype="Table"] .grid-body {
+    /* WebKit (Chrome, Edge, Safari) */
+    scrollbar-width: thin;                     /* Firefox */
+    scrollbar-color: #4a90e2 #e0e0e0;          /* thumb | track */
+}
+
+.engagement-tracker-child-table .frappe-control[data-fieldtype="Table"] .grid-body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+.engagement-tracker-child-table .frappe-control[data-fieldtype="Table"] .grid-body::-webkit-scrollbar-track {
+    background: #f0f4f8;
+    border-radius: 5px;
+}
+.engagement-tracker-child-table .frappe-control[data-fieldtype="Table"] .grid-body::-webkit-scrollbar-thumb {
+    background: #4a90e2;          /* your brand colour */
+    border-radius: 5px;
+    border: 2px solid #f0f4f8;
+}
+.engagement-tracker-child-table .frappe-control[data-fieldtype="Table"] .grid-body::-webkit-scrollbar-thumb:hover {
+    background: #357ab8;
+}

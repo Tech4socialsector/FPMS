@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-14 16:44:16.941939",
+ "doctype": "DocType",
+ "custom": 1,
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "program",
+  "audience_type",
+  "dates",
+  "type_of_contribution",
+  "description"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "program",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Program",
+   "reqd": 1
+  },
+  {
+   "columns": 3,
+   "fieldname": "audience_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Audience Type",
+   "reqd": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "dates",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Dates ",
+   "reqd": 1
+  },
+  {
+   "columns": 6,
+   "fieldname": "type_of_contribution",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Type of Contribution",
+   "options": "\nContributed to design\nAnchored and Co-anchored the entire program\nTaught sessions\nOther",
+   "reqd": 1
+  },
+  {
+   "columns": 3,
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Description",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-19 10:16:35.849137",
+ "modified_by": "Administrator",
+ "module": "FPMS Child",
+ "name": "Professional Development Programs",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-14 16:51:47.148253",
+ "doctype": "DocType",
+ "custom": 1,
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "role",
+  "type_of_rolecommittee",
+  "committee_if_any",
+  "description",
+  "duration_or_dates"
+ ],
+ "fields": [
+  {
+   "columns": 8,
+   "fieldname": "role",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Role (Program Coordinator, Convenor, Member, etc.)",
+   "reqd": 1
+  },
+  {
+   "columns": 5,
+   "fieldname": "type_of_rolecommittee",
+   "fieldtype": "Select",
+   "label": "Type of Role/Committee",
+   "options": "\nAcross Campus,\nCampus specific,\nSchool/Program specific"
+  },
+  {
+   "columns": 5,
+   "fieldname": "committee_if_any",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Committee name, if any "
+  },
+  {
+   "columns": 3,
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "duration_or_dates",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Duration or dates",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-10-30 18:17:23.206347",
+ "modified_by": "Administrator",
+ "module": "FPMS Child",
+ "name": "Institutional Roles and Committees",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

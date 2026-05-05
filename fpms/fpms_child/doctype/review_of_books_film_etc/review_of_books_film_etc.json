@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-14 16:35:12.974778",
+ "default_view": "List",
+ "doctype": "DocType",
+ "custom": 1,
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title_and_type",
+  "status",
+  "review_publisher",
+  "date_of_publication",
+  "full_citation",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "title_and_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Title and Type Reviewed\t",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status\t",
+   "options": "\nPublished\nSubmitted\nDrafting",
+   "reqd": 1
+  },
+  {
+   "fieldname": "review_publisher",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Publisher of Review",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_publication",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Date of Publication",
+   "reqd": 1
+  },
+  {
+   "fieldname": "full_citation",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Full Citation",
+   "reqd": 1
+  },
+  {
+   "description": "Remarks must be limited to 100 characters only",
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Remarks"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-11 16:47:00.024385",
+ "modified_by": "Administrator",
+ "module": "FPMS Child",
+ "name": "Review of books film etc",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

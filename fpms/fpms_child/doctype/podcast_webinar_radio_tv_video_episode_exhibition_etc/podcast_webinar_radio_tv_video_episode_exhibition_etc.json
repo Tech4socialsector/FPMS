@@ -1,0 +1,168 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-14 16:33:26.331320",
+ "default_view": "List",
+ "doctype": "DocType",
+ "custom": 1,
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "start_date",
+  "current_status",
+  "completion_date",
+  "larger_work",
+  "contribution_title",
+  "author_name",
+  "publisher_name",
+  "weblink",
+  "type_of_work",
+  "description",
+  "status",
+  "date_of_release",
+  "full_citation",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "columns": 3,
+   "fieldname": "start_date",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Start Date"
+  },
+  {
+   "columns": 6,
+   "fieldname": "current_status",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Current Status",
+   "options": "\nAccepted\nCompleted\nIn Progress\nSubmitted"
+  },
+  {
+   "columns": 6,
+   "fieldname": "completion_date",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Completion Date of Publication"
+  },
+  {
+   "columns": 8,
+   "fieldname": "larger_work",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Title of Larger Work (if this is part of a larger work)"
+  },
+  {
+   "columns": 4,
+   "fieldname": "contribution_title",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Title of Contribution"
+  },
+  {
+   "columns": 3,
+   "fieldname": "author_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Author Name(s)"
+  },
+  {
+   "columns": 3,
+   "fieldname": "publisher_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Publisher Name(s)"
+  },
+  {
+   "columns": 2,
+   "fieldname": "weblink",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Weblink"
+  },
+  {
+   "columns": 7,
+   "fieldname": "type_of_work",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Type of Work",
+   "options": "\nPodcast\nWebinar\nRadio program episode\nTV program episode\nVideo program\nExhibition\nOther",
+   "reqd": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "columns": 7,
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "\nPublished/Released\nFinal version accepted but yet to be released\nUnder editing\nRecording complete\nPlanning stage",
+   "reqd": 1
+  },
+  {
+   "columns": 3,
+   "fieldname": "date_of_release",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Date of Release"
+  },
+  {
+   "columns": 3,
+   "fieldname": "full_citation",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Full Citation"
+  },
+  {
+   "columns": 2,
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Remarks"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-19 10:13:40.793191",
+ "modified_by": "Administrator",
+ "module": "FPMS Child",
+ "name": "Podcast webinar radio TV video episode exhibition etc",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

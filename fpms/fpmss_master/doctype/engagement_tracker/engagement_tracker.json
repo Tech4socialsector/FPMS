@@ -1,0 +1,487 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-10-27 16:03:48.878720",
+ "doctype": "DocType",
+  "custom": 0,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_id",
+  "employee_name",
+  "first_id",
+  "email",
+  "supervisor",
+  "supervisor_mail",
+  "column_break_xhqd",
+  "announcement",
+  "academic_year",
+  "school_details",
+  "campus",
+  "engagement_tracker_status",
+  "objectives_section",
+  "data_onnv",
+  "feedback_if_any",
+  "teaching_mentoring",
+  "description_to_be_added",
+  "course_details",
+  "mentoring",
+  "designing_teaching_programs_or_courses",
+  "workshops_for_university_students",
+  "research_writing",
+  "text_tlvs",
+  "article_in_peer_reviewed_journal",
+  "article_in_nonreviewed_journal_or_conference_proceedings",
+  "discussion_paper_or_working_paper",
+  "book",
+  "chapters_in_edited_book_or_in_long_report",
+  "fulllengths_reports",
+  "policy_briefs",
+  "fulllength_case_study",
+  "editor_of_books_or_other_publications",
+  "material_development_for_teacher_education_curriculum",
+  "journal_editorial_board_member",
+  "talks_and_presentations",
+  "articles_in_newspapers_magazines_and_other_publications",
+  "podcast_webinar_radio_tv_video_episode_exhibition_etc",
+  "translation",
+  "review_of_books_film_etc",
+  "peer_review_of_journal_articles",
+  "conference_workshop_organising",
+  "other_publications_or_research_related_work",
+  "ongoing_research_projects",
+  "practice_engagement",
+  "practice_descr",
+  "practice_public",
+  "professional_development_programs",
+  "public_talks_webinars_guest_lectures_etc",
+  "contribution_to_social_sector_initiatives",
+  "contribution_to_government_related_initiatives",
+  "phd_mastersug_thesis_supervision_or_review",
+  "contribution_at_other_academic_institutions",
+  "consulting",
+  "other",
+  "institution_building_section",
+  "institution_descr",
+  "institution_details",
+  "roles_and_committees",
+  "contributing_to_organising_conferences_ev",
+  "reflection_sectiontext",
+  "test1",
+  "test",
+  "test2",
+  "test3",
+  "test4"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_id",
+   "fieldtype": "Data",
+   "label": "Employee Name",
+   "options": "Employee Details"
+  },
+  {
+   "fetch_from": "employee_id.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Name"
+  },
+  {
+   "fetch_from": "employee_id.first_id",
+   "fieldname": "first_id",
+   "fieldtype": "Data",
+   "label": "Employee ID"
+  },
+  {
+   "fetch_from": "employee_id.email",
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fetch_from": "employee_id.supervisor",
+   "fieldname": "supervisor",
+   "fieldtype": "Data",
+   "label": "Supervisor Name"
+  },
+  {
+   "fetch_from": "employee_id.supervisor_email",
+   "fieldname": "supervisor_mail",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Supervisor Email"
+  },
+  {
+   "fieldname": "column_break_xhqd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "announcement",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Announcement",
+   "options": "Announcement"
+  },
+  {
+   "fetch_from": "announcement.academic_year",
+   "fieldname": "academic_year",
+   "fieldtype": "Data",
+   "label": "Academic Year"
+  },
+  {
+   "fetch_from": "employee_id.school_details",
+   "fieldname": "school_details",
+   "fieldtype": "Data",
+   "label": "School/Function/Program"
+  },
+  {
+   "fetch_from": "employee_id.campus",
+   "fieldname": "campus",
+   "fieldtype": "Data",
+   "label": "Campus"
+  },
+  {
+   "fieldname": "objectives_section",
+   "fieldtype": "Section Break",
+   "label": "<h3>Objectives</h3>"
+  },
+  {
+   "fieldname": "data_onnv",
+   "fieldtype": "Table",
+   "label": "Objectives",
+   "options": "Objectives"
+  },
+  {
+   "bold": 1,
+   "fieldname": "feedback_if_any",
+   "fieldtype": "Text",
+   "label": "Feedback (if any)"
+  },
+  {
+   "fieldname": "description_to_be_added",
+   "fieldtype": "Text",
+   "hidden": 1,
+   "label": "Description to be added"
+  },
+  {
+   "fieldname": "teaching_mentoring",
+   "fieldtype": "Section Break",
+   "label": "Teaching-Mentoring"
+  },
+  {
+   "fieldname": "course_details",
+   "fieldtype": "Table",
+   "label": "Credited courses ",
+   "options": "Course Details Child"
+  },
+  {
+   "fieldname": "designing_teaching_programs_or_courses",
+   "fieldtype": "Table",
+   "label": "Designing teaching programs or courses",
+   "options": "Designing teaching programs or courses"
+  },
+  {
+   "fieldname": "workshops_for_university_students",
+   "fieldtype": "Table",
+   "label": "Uncredited courses/ Workshops for APU students ",
+   "options": "Workshops for University students"
+  },
+  {
+   "fieldname": "research_writing",
+   "fieldtype": "Section Break",
+   "label": "<h3>Research-Writing</h3>"
+  },
+  {
+   "fieldname": "text_tlvs",
+   "fieldtype": "Text",
+   "hidden": 1
+  },
+  {
+   "fieldname": "article_in_peer_reviewed_journal",
+   "fieldtype": "Table",
+   "label": "Article in peer reviewed journal",
+   "options": "Article in peer reviewed journal"
+  },
+  {
+   "fieldname": "article_in_nonreviewed_journal_or_conference_proceedings",
+   "fieldtype": "Table",
+   "label": "Article in non-reviewed journal or conference proceedings",
+   "options": "Article in non-reviewed journal or conference proceedings"
+  },
+  {
+   "fieldname": "discussion_paper_or_working_paper",
+   "fieldtype": "Table",
+   "label": "Discussion paper or working paper",
+   "options": "Discussion paper or working paper"
+  },
+  {
+   "fieldname": "book",
+   "fieldtype": "Table",
+   "label": "Book",
+   "options": "Book"
+  },
+  {
+   "fieldname": "chapters_in_edited_book_or_in_long_report",
+   "fieldtype": "Table",
+   "label": "Chapters in edited book or in long report",
+   "options": "Chapters in edited book or in long report"
+  },
+  {
+   "fieldname": "fulllengths_reports",
+   "fieldtype": "Table",
+   "label": "Full-length Reports",
+   "options": "Full-lengths Reports"
+  },
+  {
+   "fieldname": "policy_briefs",
+   "fieldtype": "Table",
+   "label": "Policy briefs",
+   "options": "Policy Briefs"
+  },
+  {
+   "fieldname": "fulllength_case_study",
+   "fieldtype": "Table",
+   "label": "Full-length Case study",
+   "options": "Full-length Case study"
+  },
+  {
+   "fieldname": "editor_of_books_or_other_publications",
+   "fieldtype": "Table",
+   "label": "Editor of books or other publications",
+   "options": "Editor of books or other publications"
+  },
+  {
+   "fieldname": "material_development_for_teacher_education_curriculum",
+   "fieldtype": "Table",
+   "label": "Material development for teacher education/ curriculum",
+   "options": "Material development for teacher education  curriculum"
+  },
+  {
+   "fieldname": "journal_editorial_board_member",
+   "fieldtype": "Table",
+   "label": "Journal editorial board member",
+   "options": "Journal Editorial Board Member"
+  },
+  {
+   "fieldname": "talks_and_presentations",
+   "fieldtype": "Table",
+   "label": "Talks and presentations",
+   "options": "Talks and Presentations"
+  },
+  {
+   "fieldname": "articles_in_newspapers_magazines_and_other_publications",
+   "fieldtype": "Table",
+   "label": "Articles in newspapers, magazines and other publications",
+   "options": "Articles in newspapers magazines and other publications"
+  },
+  {
+   "fieldname": "podcast_webinar_radio_tv_video_episode_exhibition_etc",
+   "fieldtype": "Table",
+   "label": "Podcast, webinar, radio, TV, video episode, exhibition, etc",
+   "options": "Podcast webinar radio TV video episode exhibition etc"
+  },
+  {
+   "fieldname": "translation",
+   "fieldtype": "Table",
+   "label": "Translation",
+   "options": "Translation published"
+  },
+  {
+   "fieldname": "peer_review_of_journal_articles",
+   "fieldtype": "Table",
+   "label": "Peer review of journal articles",
+   "options": "Peer review of journal articles"
+  },
+  {
+   "fieldname": "review_of_books_film_etc",
+   "fieldtype": "Table",
+   "label": "Review of books film etc",
+   "options": "Review of books film etc"
+  },
+  {
+   "fieldname": "conference_workshop_organising",
+   "fieldtype": "Table",
+   "label": "Organising Conference/ Workshop ",
+   "options": "Conference Workshop organising"
+  },
+  {
+   "fieldname": "other_publications_or_research_related_work",
+   "fieldtype": "Table",
+   "label": "Other publications or research related work",
+   "options": "Other publications or research related work"
+  },
+  {
+   "fieldname": "ongoing_research_projects",
+   "fieldtype": "Table",
+   "label": "Ongoing research projects",
+   "options": "Ongoing research projects"
+  },
+  {
+   "fieldname": "practice_engagement",
+   "fieldtype": "Section Break",
+   "label": "<h3>Practice-Public Engagement</h3><h3></h3>"
+  },
+  {
+   "fieldname": "practice_descr",
+   "fieldtype": "Text",
+   "hidden": 1,
+   "label": "Description to be added"
+  },
+  {
+   "fieldname": "practice_public",
+   "fieldtype": "Table",
+   "label": "Practice Public",
+   "options": "Practice Public Engagement Details Child"
+  },
+  {
+   "fieldname": "professional_development_programs",
+   "fieldtype": "Table",
+   "label": "Professional Development Programs",
+   "options": "Professional Development Programs"
+  },
+  {
+   "fieldname": "public_talks_webinars_guest_lectures_etc",
+   "fieldtype": "Table",
+   "label": "Public talks, Webinars, Guest lectures, etc.",
+   "options": "Public talks Webinars Guest lectures"
+  },
+  {
+   "fieldname": "contribution_to_social_sector_initiatives",
+   "fieldtype": "Table",
+   "label": "Contribution to social sector initiatives/organisations",
+   "options": "Contribution to social sector initiatives organisations"
+  },
+  {
+   "fieldname": "contribution_to_government_related_initiatives",
+   "fieldtype": "Table",
+   "label": "Contribution to government related initiatives",
+   "options": "Contribution to government related initiatives"
+  },
+  {
+   "fieldname": "phd_mastersug_thesis_supervision_or_review",
+   "fieldtype": "Table",
+   "label": "PhD/ Masters/UG thesis supervision or review",
+   "options": "PhD Masters UG thesis supervision or review"
+  },
+  {
+   "fieldname": "contribution_at_other_academic_institutions",
+   "fieldtype": "Table",
+   "label": "Contribution at other academic institutions",
+   "options": "Contribution at other academic institutions"
+  },
+  {
+   "fieldname": "consulting",
+   "fieldtype": "Table",
+   "label": "Consulting",
+   "options": "Consulting"
+  },
+  {
+   "fieldname": "other",
+   "fieldtype": "Table",
+   "label": "Other",
+   "options": "Other"
+  },
+  {
+   "fieldname": "institution_building_section",
+   "fieldtype": "Section Break",
+   "label": "<h3>Institution Building</h3><h3></h3>"
+  },
+  {
+   "fieldname": "institution_descr",
+   "fieldtype": "Long Text",
+   "hidden": 1,
+   "label": "Description to be added"
+  },
+  {
+   "fieldname": "institution_details",
+   "fieldtype": "Table",
+   "label": "Institution Building Details",
+   "options": "Institution Building Details Child"
+  },
+  {
+   "fieldname": "roles_and_committees",
+   "fieldtype": "Table",
+   "label": "Institutional Roles and Committees",
+   "options": "Institutional Roles and Committees"
+  },
+  {
+   "fieldname": "contributing_to_organising_conferences_ev",
+   "fieldtype": "Table",
+   "label": "Contributing to organising conferences/ ev",
+   "options": "Volunteering for organising conferences"
+  },
+  {
+   "fieldname": "reflection_sectiontext",
+   "fieldtype": "Section Break",
+   "label": "<h3>Reflection</h3><h3></h3>"
+  },
+  {
+   "fieldname": "test",
+   "fieldtype": "Long Text",
+   "label": "Research-Writing-Reflection "
+  },
+  {
+   "fieldname": "test1",
+   "fieldtype": "Long Text",
+   "label": "Teaching-Mentoring-Reflection "
+  },
+  {
+   "fieldname": "test2",
+   "fieldtype": "Long Text",
+   "label": "Practice-Public Engagement-Reflection "
+  },
+  {
+   "fieldname": "test3",
+   "fieldtype": "Long Text",
+   "label": "Institution Building-Reflection "
+  },
+  {
+   "fieldname": "test4",
+   "fieldtype": "Long Text",
+   "label": "Other Reflectioan "
+  },
+  {
+   "fieldname": "mentoring",
+   "fieldtype": "Table",
+   "label": "Mentoring Details",
+   "options": "Mentoring Details Child"
+  },
+  {
+   "default": "Save",
+   "fieldname": "engagement_tracker_status",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Engagement Tracker status",
+   "options": "Save\nSubmit\nEnable to Edit",
+   "read_only_depends_on": "1"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-16 20:09:10.618950",
+ "modified_by": "Administrator",
+ "module": "FPMSS Master",
+ "name": "Engagement Tracker",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "employee_name"
+}

@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-14 16:45:58.943464",
+ "doctype": "DocType",
+ "custom": 1,
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "organisation_network_if_any",
+  "type_of_contribution",
+  "description",
+  "honorarium_number_format",
+  "designation_if_any"
+ ],
+ "fields": [
+  {
+   "columns": 6,
+   "fieldname": "organisation_network_if_any",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Organisation/ Network, if any",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "type_of_contribution",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Type of contribution",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Description ",
+   "reqd": 1
+  },
+  {
+   "columns": 5,
+   "fieldname": "honorarium_number_format",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Honorarium (number format)",
+   "reqd": 1
+  },
+  {
+   "columns": 5,
+   "fieldname": "designation_if_any",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Designation, if any"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-10-30 18:14:07.893395",
+ "modified_by": "Administrator",
+ "module": "FPMS Child",
+ "name": "Contribution to social sector initiatives organisations",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

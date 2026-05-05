@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-14 16:30:53.169622",
+ "default_view": "List",
+ "doctype": "DocType",
+ "custom": 1,
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "journal_name",
+  "position_and_term",
+  "contribution_description",
+  "author_names",
+  "num_articles_reviewed",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "columns": 4,
+   "fieldname": "journal_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Journal/ publication name",
+   "reqd": 1
+  },
+  {
+   "columns": 7,
+   "fieldname": "position_and_term",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Position on editorial board and term dates",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "contribution_description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Type of Contribution",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "author_names",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Author / Co-Editor Names\t",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "num_articles_reviewed",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "No. of Articles Reviewed\t",
+   "non_negative": 1
+  },
+  {
+   "columns": 2,
+   "description": "Remarks must be limited to 100 characters only",
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Remarks",
+   "length": 100
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-10-30 17:45:50.514171",
+ "modified_by": "Administrator",
+ "module": "FPMS Child",
+ "name": "Journal Editorial Board Member",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

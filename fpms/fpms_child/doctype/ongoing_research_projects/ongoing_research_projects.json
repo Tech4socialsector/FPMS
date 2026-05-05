@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-14 16:38:06.426810",
+ "doctype": "DocType",
+ "custom": 1,
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "description",
+  "duration",
+  "collaborators",
+  "my_role",
+  "stage",
+  "source_of_funding",
+  "funding_details",
+  "detail",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "columns": 4,
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Name of Project",
+   "reqd": 1
+  },
+  {
+   "columns": 3,
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "duration",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Duration",
+   "reqd": 1
+  },
+  {
+   "columns": 3,
+   "fieldname": "collaborators",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Collaborators",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "my_role",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "My Role & Contribution",
+   "reqd": 1
+  },
+  {
+   "columns": 6,
+   "fieldname": "stage",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Stage",
+   "options": "\nProposal\nData collection\nData analysis\nWriting",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "source_of_funding",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Source of Funding",
+   "options": "\nAPU small grant\nRC grant\nExternal grant\nNone",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "funding_details",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Source of Funding Details",
+   "reqd": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "detail",
+   "fieldtype": "Data",
+   "label": "Funding Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Remarks\t"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-10-30 18:04:52.395404",
+ "modified_by": "Administrator",
+ "module": "FPMS Child",
+ "name": "Ongoing research projects",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
